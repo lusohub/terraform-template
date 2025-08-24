@@ -7,11 +7,11 @@ terraform {
 }
 
 provider "google" {
-  project     = var.project_name
+  project     = var.project_id
   credentials = "./environments/prod/prod.json"
 }
 
 provider "google-beta" {
-  project     = var.project_name
+  project     = var.project_id
   credentials = "./environments/prod/prod.json"
 }
