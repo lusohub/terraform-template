@@ -1,0 +1,19 @@
+{
+  "name": "Terraform",
+  "image": "mcr.microsoft.com/devcontainers/universal:6",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "-GitHub.copilot",
+        "-GitHub.copilot-chat"
+      ],
+      "settings": {
+        "chat.disableAIFeatures": true,
+        "chat.commandCenter.enabled": false,
+        "github.copilot.enable": { "*": false },
+        "files.autoSave": "onFocusChange",
+        "editor.formatOnSave": false
+      }
+    }
+  }
+}
